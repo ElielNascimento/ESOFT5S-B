@@ -1,10 +1,10 @@
-package Models;
+package com.bn.demo.Models;
 
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "tb_livro")
-public class Livro {
+public class LivroModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long IdLivro;
@@ -12,7 +12,7 @@ public class Livro {
     private String Autor;
     private Integer anoPublicacao;
 
-    public Livro() {}
+    public LivroModel() {}
 
     public Long getIdLivro() {
         return IdLivro;
