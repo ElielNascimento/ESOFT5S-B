@@ -1,5 +1,7 @@
 package com.bn.demo.services;
 
+import com.bn.demo.Models.LivroModel;
+import com.bn.demo.Repositories.LivroRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
