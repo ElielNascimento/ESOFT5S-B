@@ -29,7 +29,7 @@ public class LivroController {
         return service.BuscaPorId(id);
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     public void Deletar(@PathVariable Long id){
         service.Deletar(id);
     }
